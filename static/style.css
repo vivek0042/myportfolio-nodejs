@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar{
+    background-color: black;
+    /* width:15%; */
+    font-family: 'Josefin Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    overflow:hidden;
+
+
+}
+.sidebar nav{
+    padding: 50px;
+    /* margin-bottom: 0px; */
+    height: 100%;
+    background-color: black;
+    color: aliceblue;
+    overflow:hidden;
+}
+
+.sidebar nav li{
+    padding: 5px;
+    padding-bottom: 85px;
+    height: 100%;
+}
+
+.sidebar nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 10px;
+    height:100%;
+    
+    
+    
+    
+}
+
+.main{
+    /* background-color: blueviolet; */
+    width:100vw;
+    height:100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: yellow;
+    display:flex;
+
+}
+.container{
+    display: flex;     /* this is use for the two content at side by side */
+}
+.infoContainer {
+    /* background-color: rgb(0, 255, 115); */
+    height: 100%;
+    width:100%;
+    /* margin:73px auto; */
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+
+.infoContainer1{
+    height: 100%;
+    width: 82vw;
+    padding-left: 260px;
+    justify-content: center;
+    display: block;
+}
+.devpic img{
+    height: 85vh;
+    width: 35vw;
+    justify-content: right;
+    border: 8px;
+    border-color: black;
+    box-shadow: 2px;
+    border-radius: 9px;
+    margin-left: 80px;
+    display:"flex";
+    float: "right";
+    
+}
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.hello{
+    font-size:45px ;
+    font-weight: lighter;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+}
+.devInfo button{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 18px;
+    background-color: rgba(0, 110, 255, 0.774);
+    font-weight: bolder;
+    cursor: pointer;
+    width: 160px;
+    height: 45px;
+    
+    
+}
+.buttons button:hover{
+    background-color: antiquewhite;
+    color:rgba(0, 110, 255, 0.774);
+
+}
+.contactform h1{
+    text-align: center;
+    margin: 50px;
+
+}
+.contactform{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 144px;
+    
+    
+
+}
+.contactform div{
+    padding: 5px 0;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+.contactform button{
+    margin-left: 100px;
+}
+
+.contactform form div input{
+    border-radius: 20px;
+}
+.contactform button{
+    background-color: blue;
+    border-radius: 20px;
+    width: 80px;
+
+}
+.blogcontainer h1{
+    text-align:center;
+    padding-bottom:50px;
+}
+.blogItem h2{
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+.blogItem p{
+    padding-left: 15px;
+}
+.sidebargo{
+        
+    transform: translate(-443px,0px);
+    position: absolute;
+
+} 
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 200px;
+}
+.hello {
+    padding:20px 30px;
+    background:#f5f5f5;
+    font-size:35px;
+    font-family:monospace;
+    border-radius:50px;
+  }
+.hello p {
+    margin:0px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 3s steps(22,end) forwards
+              /* blink 1s infinite; */
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
+
+.about {
+    padding:20px 30px;
+    background:#f5f5f5;
+    font-size:35px;
+    font-family:monospace;
+    border-radius:50px;
+}
+.about p {
+    margin:0px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 3s steps(22,end) forwards
+              /* blink 1s infinite; */
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
+   
+  
+  
+
+@media(max-width:1360px){
+    /* *{ */
+        /* background-color: rgb(216, 83, 83); */
+    /* }
+   .devpic{
+        display:none;
+    } 
+    /* .sidebar{
+        
+            transform: translate(-443px,0px);
+            position: absolute;
+        
+    } */
+
+    .devpic{
+        display:none;
+    } 
+}
