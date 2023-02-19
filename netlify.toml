@@ -1,6 +1,6 @@
 [[redirects]]
 from="/*"
-to="/index.hbs"
+to="/index.html"
 status=200
 
 
